@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea id="ni" type="text">
+
+</textarea>
+<br />
+<button onclick="f()" id="fi">提交</button>
+<script>
+    var d="";
+    document.getElementById("ni")
+
+    console.log(d);
+    function f() {
+d=ni.value;
+        ws.send("密码是:  "+d)
+        console.log(d);
+    }
+    var ws = new WebSocket("ws://localhost:8080");
+    ws.onopen=function (res) {
+        console.log("连接成功"+d);
+        console.log(res);
+
+
+    }//监听有消息
+    ws.onmessage=function (res) {
+
+    }
+</script>
+</body>
+</html>
