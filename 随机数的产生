@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>随机数的产生</title>
+    <style>
+        body{
+            background-image: url("http://img2.zol.com.cn/product/29/649/ceqWdXfKBxV2.jpg");
+        }
+    </style>
+</head>
+<body >
+<img width="600" height="400" src="gif.gif">
+<audio  src="http://183.47.253.160/amobile.music.tc.qq.com/C400001TkopW3d40PN.m4a?guid=5081042448&vkey=462935B81FE9B3770344054FAE1F64002198E9836C1F81323AC92108FB64E5B1F820DD63192AB34E7DBEA95A299A9DB6A38669A55E46EC71&uin=0&fromtag=66" autoplay></audio>
+
+<script>
+var wo =Math.random();
+alert("周龙  ，你要的随机数="+wo);
+</script>
+</body>
+</html>
